@@ -1,0 +1,246 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.navbar-brand  p{
+    color: white;
+    margin-left: 14px;
+    font-size: 17px;
+    margin-top: 6px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.navbar-brand p:hover{
+    color: yellow;
+    transition: 1s ease;
+}
+
+.navbar-brand i{
+    padding: 10px;
+    display: flex;
+    margin-bottom: -22px;
+    margin-top: -15px;
+    margin-left: 8px;
+    margin-right: 10px;
+}
+
+.header_img{
+    min-height: 1220px;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 20px;
+    background: url("../img/Header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    background-position: center center;
+
+}
+
+.navbar-nav{
+    margin-left: 350px;
+    margin: 11px 175px;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 7px 10px 0;
+}
+
+.navbar-nav li a:hover{
+    color: yellow;
+    transition: 1s ease;
+}
+
+.loyiha{
+    border: 1px solid white;
+    border-radius: 47px;
+    padding: 10px;
+}
+
+.col_left{
+    margin-left: 70px;
+    margin-top: 235px;
+    color: white;
+    font-family: revert;
+}
+
+.social{
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin: 18px 0;
+   
+}
+
+
+
+.social:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg,#1345e6 0%,#ed239f 100%);
+}
+
+.About {
+    background-image: url("../img/about-png.png");
+    background-size: 100% 100%;
+    min-height: 1000px;
+    margin-top: -400px;
+    background-position: center;
+}
+
+.text_h3{
+    color: #1E1666;;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.text_p{
+    border-left: 4px solid rgba(240, 109, 40, 0.91);
+    padding: 0px 29px;
+}
+
+.logo_txt{
+    color: #1E1666;
+    font-weight: bold;
+}
+
+.logo_txt:hover{
+    color: rgba(240, 109, 40, 0.91);
+    transition: 0.2s ease;
+}
+
+.logo_img {
+    border: 1px solid #af99c2;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding-top: 4px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: #af99c2;
+    padding-bottom: 4px;
+}
+
+.Xizmatlar{
+    background-image: url("../img/fon_login.png");
+    background-size: 100% 100%;
+    min-height: 500px;
+    background-position: center;
+}
+
+.grad{
+    background: linear-gradient(55deg, #0042C5, #29B3FF, #29B3FF, #0042C5);
+    background-image: linear-gradient(60deg, rgb(0, 66, 197), rgb(41, 179, 255), rgb(41, 179, 255), rgb(0, 66, 197));
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: 160% 100%;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.input_log{
+    margin: 5px 14px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #ECF4FC;
+}
+
+.avage_page{
+    border-radius: 15px;
+    background-color: white;
+    padding: 14px;
+    height: 260px;
+    width: 268px;
+    font-size: 15px;
+    box-shadow: -1px 5px 25px white;
+}
+
+.avage_page:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.work{
+    background-image: url("../img/aventages-bg.svg");
+}
+
+.avage_tit{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.avage_txt {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.bg_ava{
+    background-image: url("../img/aventages-bg.svg");
+}
+
+.txt1_1{
+    background: #D4FFDE;
+    color: #00841F;
+}
+
+.txt_1{
+    padding: 10px 15px;
+    font-size: 33px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    border-radius: 0 10px 0 10px;
+    background: #D4FFDE;
+    max-width: 61px;
+    height: 61px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.payment{
+    margin-left: 138px;
+    margin-top: 18px;
+}
+
+.pay_txt{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.payment_page{
+    background-color: #b22c1e;
+    box-shadow: 1px 5px 25px #c1c2c3;
+}
+
+.txt_2{
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+}
